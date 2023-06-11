@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComputerDesktopActivity">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESKTOP PRODUCTS"
+        android:textColor="#C57D14"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <LinearLayout
+        android:id="@+id/btnDesktop1"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <ImageButton
+            android:id="@+id/btnImage1"
+            android:layout_width="166dp"
+            android:layout_height="166dp"
+            android:backgroundTint="#FFFFFF"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/desktop1" />
+
+        <TextView
+            android:id="@+id/txtDesktop1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Php 25,472.20\n\nIntel Core i5-3570 3.40GHz Processor with Samsung DM300S1A SFF Bundled with 23-inch LG Flatron 23EN43V LED Monitor with Windows 10 Microsoft Authorized Refurbisher (MAR)" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnDesktop2"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDesktop1"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:id="@+id/btnImage2"
+            android:layout_width="166dp"
+            android:layout_height="166dp"
+            android:backgroundTint="#FFFFFF"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/desktop2" />
+
+        <TextView
+            android:id="@+id/txtDesktop2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Php 23,622.20 \n\nIntel Core i5-4590 3.30GHz Processor with HP ProDesk 400 G1 SFF Bundled with 23-inch Dell P2317Hb IPS-LED Full HD Monitor with Windows 10 Microsoft Authorized Refurbisher (MAR)" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
